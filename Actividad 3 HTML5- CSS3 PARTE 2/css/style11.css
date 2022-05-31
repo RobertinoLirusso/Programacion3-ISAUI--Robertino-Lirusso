@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../img/N6s1Ifxi.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.500);
+    background-blend-mode: soft-light;
+}
+
+.header{
+    padding: 8px;
+    height: 100px;
+    width: 100%;
+    display:flex;
+}
+
+.header h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #444444;
+    padding-left: 10px;
+    margin-left: 10px;
+    text-shadow: 1px 0px 1px #f5f4f4, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #ffffff, 2px 3px 1px #ffffff, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+}
+
+.header img{
+    height: 80px;
+    width: 150px;
+}
+
+.menu{
+    height: 100%;
+    width: 80%;
+    float: right;
+    opacity: 0.9;
+}
+
+.menu h1{
+    color: white;
+    text-align: left;
+    -webkit-text-stroke: 1px rgb(248, 248, 248);
+    font-family: arial; color: rgb(230, 14, 14);
+}
+.menu p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    color: snow;
+    font-size: 18px;
+    padding-right: 8pc;
+    line-height: 2.5em;
+    font-weight: bolder;
+}
+
+.sidebar{
+    float: left;
+    width: 20%;
+    height: 500px;
+}
+
+.sidebar a{
+    margin: 22px;
+    color: rgb(255, 255, 255); font-size: 17px; line-height: 17px; padding: 9px; border-radius: 10px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(241, 37, 10) 0%, rgb(212, 34, 34) 50%, rgb(241, 45, 19) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(0, 0, 0); display: block;
+}
+.sidebar a:hover {
+    background: #db1111; 
+}
+.sidebar a:active {
+    background: #a81c1c; 
+}
+
+.footer{
+    float: right;
+    background-color:transparent;
+    width: 100%;
+    padding: 4px;
+    height: 150px;
+}
+
+.footer img{
+    display: block;
+    margin:0px auto;
+}

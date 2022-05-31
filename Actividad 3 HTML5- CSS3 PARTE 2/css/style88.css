@@ -1,0 +1,111 @@
+html,body{
+    box-sizing: border-box;
+}
+
+#header{
+  background-color:black;
+  text-align: center;
+  border-width: 50;
+  border-color: black;
+  border-style:solid;
+  border-radius: 50px;
+}
+
+#demotext{
+    color: #FFFFFF;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    color: #FFFFFF;
+    color:aqua
+    }
+
+#nav{
+    background-color:black;
+    text-align: center;
+    border-width: 50;
+    border-color: black;
+    border-style:solid;
+    border-radius: 30px;
+    padding: 5px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width: 98%;
+    height: 2%;
+}
+
+#nav a{
+    text-decoration: none;
+    display: inline-block;
+    width: 18%;
+}
+#nav a:hover{
+    background-color:rgb(247, 10, 255);
+    color:rgb(253, 253, 253);
+    }
+
+#section{
+    background-color:black;
+    text-align: center;
+    border-width: 50;
+    border-color: black;
+    border-style:solid;
+    border-radius: 50px;
+    float: left;
+    width: 75%;
+    margin-top:2px;
+    margin-bottom: 6px;
+    margin-left: 4px;
+    margin-right: 2px;
+    padding-bottom: 10px;
+}
+
+#section p{
+    color: turquoise;
+    text-align:left;
+    line-height: 1em;
+}
+
+#section a{
+    text-decoration: none;
+    color: white;
+}
+
+#aside{
+    background-color:black;
+    border-width: 50;
+    border-color: black;
+    border-style:solid;
+    border-radius: 50px;
+    float: right;
+    width: 22%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 0;
+    margin-right: 9px;
+    height: 520px;
+}
+
+#aside h2{
+    text-align: center;
+}
+
+#aside a{
+    text-decoration: none;
+    display: inline-table;
+    text-align: right;
+    margin-left: 6px;
+    line-height: 1.5em;
+}
+
+#footer{
+    background-color:black;
+    text-align: center;
+    border-width: 50;
+    border-color: black;
+    border-style:solid;
+    border-radius: 50px;
+    height: 20px;
+    clear: both;
+    padding: 2px;
+    margin-top: 8px;
+    margin-bottom: 2px;
+}

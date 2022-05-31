@@ -1,0 +1,64 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    height: 107px;
+}
+
+.header img{
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar{
+    background-color: greenyellow;
+    float: left;
+    width: 12%;
+    height: 100%;
+}
+
+.sidebar a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color:white;
+    color: rgb(255, 255, 255); font-size: 14px; line-height: 31px; padding: 6px; border-radius: 5px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(17, 167, 37) 0%, rgb(20, 158, 38) 50%, rgb(31, 160, 48) 100%);border: 2px solid rgb(41, 236, 67); display: block;
+}
+.sidebar a:active {
+    background: #25a31a; 
+}
+
+.main{
+    background-color:white;
+    float: right;
+    height: 300px;
+    width: 88%;
+    padding-top: 20px;
+}
+
+.main p{
+    text-align: left;
+    line-height: 1.5em;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+.main b{
+    line-height: 1.5em;
+    padding-left: 50px;
+}
+
+.main a{
+    color: blue;
+    font-weight: bold;
+}
+
+.main ul{
+    line-height: 1.5em;
+    padding-left: 90px;
+    list-style:disc;
+}

@@ -1,0 +1,85 @@
+* {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.columna1{
+    float: left;
+    width: 48%;
+    height: 100%;
+    padding: 12px;
+    background-color: teal;
+}
+
+.columna1 a{
+    color: #FFFFFF;
+background: #333333;
+text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    height: 40px;
+    padding: 4px;
+    text-decoration: none;
+    text-align: left;
+    background-color:salmon;
+    color: black;
+}
+
+.columna1 p{
+    text-align: justify;
+    padding: 4px;
+    background-color: white;
+    height: 220px;
+    line-height: 1.5em;
+}
+
+.columna1 a p{
+    width: 100%;;
+}
+
+.columna2{
+    float: right;
+    width: 48%;
+    height: 100%;
+    padding: 12px;
+    background: #D0E4F5 url("https://patch.com/img/cdn20/shutterstock/22887410/20211029/095304/styles/patch_image/public/shutterstock-583808584___29095243684.jpg") repeat scroll 50% 50%;
+}
+
+
+.columna2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.columna2 h1{
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    opacity: 0.9;
+    background-color:transparent;
+    font-family:'Monotype Corsiva','Apple Chancery','ITC Zapf Chancery','URW Chancery L',cursive;
+    font-size: 40px;
+    display: block;
+    height: 80px;
+    padding: 4px;
+    text-decoration: none;
+    text-align: left;
+    background-color:none;
+    color: white;
+}
+
+.columna2 p{
+    text-align: center;
+    text-align: justify;
+    padding: 4px;
+    background-color:gainsboro;
+    height: 280px;
+    line-height: 2em;
+    opacity: 0.9;
+}
+
+.columna2 a p{
+    width: 100%;;
+}
