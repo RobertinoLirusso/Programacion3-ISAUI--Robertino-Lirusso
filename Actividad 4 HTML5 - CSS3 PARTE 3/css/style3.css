@@ -1,0 +1,91 @@
+.container{
+    margin: 50px auto;
+    width: 480px;
+    padding-top: 4px;
+    padding-bottom: 33px;
+    background: #2630CE;
+    background: -moz-linear-gradient(left, #2630CE 0%, #4535A4 52%, #C50D9F 100%);
+    background: -webkit-linear-gradient(left, #2630CE 0%, #4535A4 52%, #C50D9F 100%);
+    background: linear-gradient(to right, #2630CE 0%, #4535A4 52%, #C50D9F 100%);
+}
+
+input:valid {background-color:rgb(254, 255, 175);}
+input:invalid {background-color:white;}
+textarea:valid {background-color:rgb(254, 255, 175);}
+textarea:invalid {background-color:white;}
+
+.contact{
+    position: relative;
+    margin: 0 auto;
+    padding: 0 auto;
+    height: 480px;
+    width: 410px;
+    background:rgb(255, 239, 210);
+    border-radius: 6px;
+    border: 1px;
+}
+
+.header{
+    background: rgb(238, 146, 9);
+    border-radius: 2px;
+    margin: 0;
+    padding:0;
+    height: 15%;
+    width: 100%;
+}
+
+.header h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    padding-top: 20px;
+    text-align: center;
+    color:white;
+}
+
+.contact input[type=text], .contact input[type=email]{
+    width: 84%;
+    height: 32px;
+    margin-top: 25px;
+    padding-left: 10px;
+    text-align: left;
+    margin-left: 25px;
+    font-style: italic;
+    border: 1px solid rgb(255, 239, 210);
+}
+
+.contact textarea[id=message]{
+    width:84%;
+    resize: none;
+    margin-left: 25px;
+    height: 95px;
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 25px;
+    font-family: arial, sans-serif;
+    border: 1px solid rgb(255, 239, 210);
+    font-style: italic;
+}
+
+.submit input[type=submit]{
+    width: 100%;
+    height: 67px;
+    margin-top: 20px;
+    color:rgb(47, 43, 53);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 22px;
+    border-radius: 2px;
+    font-style: italic;
+    font-family: arial, sans-serif;
+    background-color:rgb(252, 227, 6);
+    border: 1px solid rgb(252, 227, 6);
+    cursor: pointer;
+
+}
+
+.contact input[type=submit]:hover{color: black; background-color:rgb(247, 174, 39);}
+.contact input[type=submit]:active{color:ivory;}
+
+input:focus{outline: 1px solid rgb(247, 174, 39);}
+textarea:focus{outline: 1px solid rgb(247, 174, 39);}

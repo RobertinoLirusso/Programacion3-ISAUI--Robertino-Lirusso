@@ -1,0 +1,83 @@
+.container{
+    margin: 50px auto;
+    width: 840px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(185, 185, 185);
+}
+
+input:valid {background-color:rgb(255, 237, 203); border: 1px solid black;}
+input:invalid {background-color:white; border: 1px solid black;}
+textarea:valid {background-color:rgb(255, 237, 203); border: 1px solid black;}
+textarea:invalid {background-color:white; border: 1px solid black;}
+
+.contact{
+    position: relative;
+    margin: 0 auto;
+    padding: 25px 25px 30px;
+    width: 510px;
+    background: black;
+    border-radius: 4px;
+    height: 480px;
+    border: 1px solid darkorange;
+}
+.contact p{
+    text-align: center;
+    font-family: arial, sans-serif;
+    color: white;
+    font-size: 13px;
+}
+
+
+.contact h1{
+    color: orange;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.contact label{
+    font-size: 13px;
+    color: white;
+    font-family: Arial, sans-serif;
+    line-height: 40px;
+    padding-left: 1px;
+}
+
+.contact input[type=text], .contact input[type=email]{
+    width: 99%;
+    height: 25px;
+    text-align: left;
+    padding: 0;
+}
+
+.contact textarea[id=message]{
+    resize: none;
+    width: 99%;
+    height: 100px;
+    text-align: left;
+    padding: 0;
+}
+
+input:focus {outline: solid 1px orangered;}
+
+
+.contact input[type=submit]{
+    width: 100%;
+    height: 35px;
+    margin-top: 5px;
+    color: white;
+    background-color: rgb(255, 148, 8);
+    transform: skew(-10deg);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.contact input[type=submit]:hover{color: black; background-color:orangered; transition:.3s;}
+.contact input[type=submit]:active{color:ivory;}
+
+.contact textarea{
+    font-family: arial, sans-serif;
+}
+.contact textarea:focus{outline: solid 1px orangered;}

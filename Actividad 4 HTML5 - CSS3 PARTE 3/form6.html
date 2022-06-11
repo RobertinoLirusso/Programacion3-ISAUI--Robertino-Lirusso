@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 6</title>
+    <link rel="stylesheet" href="css/style6.css">
+</head>
+<body>
+    <div class="container">
+        <div class="contacto">
+            <form action="">
+                <h1>Formulario de contacto</h1>
+                <p>Escríbenos y en breve nos pondremos en contacto contigo</p>
+                <label for="name">Nombre <span class="required">*</span></label><br>
+                <input type="text" id="nombre" placeholder="Escribe tu nombre" required><br>
+                <label for="email">Email <span class="required">*</span></label><br>
+                <input type="email" id="email" placeholder="Escribe tu Email" required><br>
+                <label for="tel">Teléfono</label><br>
+                <input type="text" id="phone" placeholder="Escribe tu teléfono"><br>
+                <label for="url">Sitio web</label><br>
+                <input type="url" id="url" placeholder="Escribe la URL de tu web"><br>
+                <label for="asunto">Asunto <span class="required">*</span></label><br>
+                <input type="text" id="asunto" placeholder="Escribe un asunto" required><br>
+                <label for="message">Mensaje <span class="required">*</span></label><br>
+                <textarea name="" id="message" cols="30" rows="10" placeholder="Deja aquí tu comentario..." required></textarea><br>
+                <input type="submit" name="commit" value="ENVIAR">
+                <h4 class="campo"><span class="required">*</span> los campos son obligatorios.</h4>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

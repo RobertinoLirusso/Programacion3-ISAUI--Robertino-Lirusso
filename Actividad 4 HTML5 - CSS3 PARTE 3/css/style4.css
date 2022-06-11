@@ -1,0 +1,110 @@
+.container{
+    background: #324d61;
+    background: -moz-linear-gradient(left, #4391CE 0%, #748AA4 50%, #A5ADC5 100%);
+    background: -webkit-linear-gradient(left, #4391CE 0%, #748AA4 50%, #A5ADC5 100%);
+    background: linear-gradient(to right, #4391CE 0%, #748AA4 50%, #A5ADC5 100%);
+    padding: 20px 20px 20px;
+    width: 70%;
+    height: 350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+input:valid {background-color:rgb(233, 233, 233);}
+input:invalid {background-color:white;}
+
+.iniciar_sesion{
+    background-color:#4e5858;
+    border: 1px solid #4e5858;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: 60%;
+    height: 350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+.iniciar_sesion h1{
+    color:darkgrey;
+    font-weight: normal;
+    font-size: 45px;
+    text-align: center;
+}
+
+.iniciar_sesion p{
+    line-height: 0%;
+    padding: 15px;
+    color: darkgrey;
+}
+
+.iniciar_sesion a{
+    text-decoration: none;
+    color: darkgrey;
+}
+
+
+.iniciar_sesion a:hover{color:rgb(128, 233, 201);}
+.iniciar_sesion a:active{color:rgb(243, 243, 88);}
+
+.login{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #4e5858;
+    border: 1px solid #4e5858;
+    width: 40%;
+    height: 350px;
+    margin: 0 auto;
+}
+
+
+
+form{
+    background-color: cadetblue;
+    margin: 20px;
+    padding:20px;
+    height: 270px;
+    border-radius: 4px;
+    padding-left: 25px;
+    padding-top: 5%;
+}
+
+.login label{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login input{
+    width: 95%;
+    height: 40px;
+    border: 1px solid cadetblue;
+    margin-bottom: 9px;
+    border-radius: 3px;
+}
+
+.login input[type=text]{
+    margin-bottom: 5%;
+}
+
+::-webkit-input-placeholder{
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.login button{
+    width: 97%;
+    height: 45px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form button:hover{color: black; background-color:rgb(76, 212, 219);}
+form button:active{color:rgb(243, 243, 88);}
+input:focus{outline: solid 1px teal;}
